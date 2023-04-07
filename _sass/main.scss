@@ -18,9 +18,21 @@ h4 {
   margin-block-start: 2.5em;
 }
 
+#all-tabs-content .tab-content {
+  display: none;
+}
+
+#all-tabs-content .tab-content.is-active {
+  display: block;
+}
+
 body {
   background-color: $light;
   color: $dark;
+}
+
+html {
+  background-color: $dark;
 }
 
 body.dark,

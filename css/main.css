@@ -10309,9 +10309,21 @@ h4 {
   margin-block-start: 2.5em;
 }
 
+#all-tabs-content .tab-content {
+  display: none;
+}
+
+#all-tabs-content .tab-content.is-active {
+  display: block;
+}
+
 body {
   background-color: hsl(0deg, 0%, 96%);
   color: hsl(0deg, 0%, 21%);
+}
+
+html {
+  background-color: hsl(0deg, 0%, 21%);
 }
 
 body.dark,
