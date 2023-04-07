@@ -1,9 +1,7 @@
 ## Readme
 
-Made using Bulma.
+Made using Bulma. 
 
-## Copyright and license
+Styles used: https://github.com/codomatech/bulma50shades
 
-Code copyright 2023 Megalon2D. Code released under [the MIT license](https://github.com/jgthms/bulma-start/blob/master/LICENSE).
-
-Code copyright 2017 Jeremy Thomas. Code released under [the MIT license](https://github.com/jgthms/bulma-start/blob/master/LICENSE).
+Template project: https://github.com/jgthms/bulma-start
