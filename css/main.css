@@ -10313,6 +10313,20 @@ h4 {
   margin-top: 1em;
 }
 
+.title-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.project hr {
+  flex: 1;
+  margin-top: 2em;
+  margin-bottom: 0;
+  margin-left: 0.5em;
+  margin-right: 0;
+  border-style: none;
+}
+
 img.pfp {
   border-radius: 100%;
   width: 6em;
