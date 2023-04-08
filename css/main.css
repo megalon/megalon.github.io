@@ -10313,6 +10313,22 @@ h4 {
   margin-top: 1em;
 }
 
+.title-container {
+  display: flex;
+  white-space: nowrap;
+}
+
+.title-container hr {
+  flex: 1;
+  margin-top: 2em;
+  margin-bottom: 0;
+  margin-left: 0.66em;
+  margin-right: 0;
+  border-style: none;
+  height: 0.25em;
+  background-color: #555555;
+}
+
 img.pfp {
   border-radius: 100%;
   width: 6em;
