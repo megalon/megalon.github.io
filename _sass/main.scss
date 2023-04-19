@@ -12,7 +12,34 @@ $link: #48bcff;
 // Import the rest of Bulma
 @import '../node_modules/bulma/bulma';
 
-// Add dark mode
+.video-container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-areas: "left-sidewall video right-sidewall";
+}
+
+.sidewall {
+  background-color: #161616;
+}
+
+.sidewall.sinister-squeakers {
+  background-color: #131316;
+}
+
+.sidewall.left {
+  grid-area: left-sidewall;
+}
+
+.sidewall.right {
+  grid-area: right-sidewall;
+}
+
+.video-to-contain{
+  grid-area: video;
+  max-height: 80vh;
+  min-height: 20em;
+}
+
 
 h4 {
   margin-block-start: 1em;
